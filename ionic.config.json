@@ -1,5 +1,7 @@
 {
   "name": "SL-WMSIonic",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

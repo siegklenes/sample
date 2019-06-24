@@ -1,11 +1,23 @@
-import { browser, by, element } from 'protractor';
+import { Element } from '@wdio/sync';
 
 export class AppPage {
-  navigateTo() {
-    return browser.get('/');
-  }
+    async navigateTo() {
+        // return browser.get('/');
+    }
 
-  getPageTitle() {
-    return element(by.css('ion-title')).getText();
-  }
+    // Quando uma pagina é substituida, buscar por tag-name pode trazer uma versão não visível
+    getPageTitle(): Element {
+        return $('ion-title');
+    }
+    // Alternativa 1, buscar a lista de elementos e pegar o último( deve ser a instância mais recente)
+    getPageTitleLast() {
+        return $$('ion-title').pop();
+    }
+
+    getTabTwoButton() {
+        return $('[tab="tab2"]');
+    }
+    getTabThreeButton() {
+        return $('[tab="tab3"]');
+    }
 }

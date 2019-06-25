@@ -20,15 +20,16 @@ config.capabilities = [
         // For W3C the appium capabilities need to have an extension prefix
         // http://appium.io/docs/en/writing-running-appium/caps/
         // This is `appium:` for all Appium Capabilities which can be found here
-        'appium:chromedriverChromeMappingFile': 'C:\\wms\\SL-WMSIonic\\chrome.json',
-        'appium:chromedriverExecutableDir': 'C:\\wms\\SL-WMSIonic\\chromedrivers\\',
+        //'appium:chromedriverChromeMappingFile': 'C:\\wms\\SL-WMSIonic\\chrome.json',
+        //'appium:chromedriverExecutableDir': 'C:\\wms\\SL-WMSIonic\\chromedrivers\\',
         'appium:appPackage': 'io.ionic.starter',
         'appium:appActivity': '.MainActivity',
+        'appium:app': '/root/tmp/app-debug.apk',
         'appium:autoAcceptAlerts': 'true',
         'appium:autoGrantPermissions': 'true',
         'appium:autoWebview': 'true',
         'appium:autoWebviewTimeout': 20000,
-        'appium:chromedriverChromeMappingFile': 'C:\\wms\\SL-WMSIonic\\chrome.json',
+        //'appium:chromedriverChromeMappingFile': 'C:\\wms\\SL-WMSIonic\\chrome.json',
         'appium:deviceName': 'emulator-5554',
         'appium:orientation': 'PORTRAIT',
         // `automationName` will be manatory, see

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="new_App" timestamp="2019-06-24T14:21:13" time="1.338" tests="3" failures="0" errors="0" skipped="0">
+  <testsuite name="new_App" timestamp="2019-06-24T14:01:51" time="5.3" tests="3" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="new App"/>
-      <property name="capabilities" value="emulator-5554.android.9"/>
-      <property name="file" value=".\e2e\src\app.e2e-spec.ts"/>
+      <property name="capabilities" value="emulator-5554.android.8_1_0.app-debug_apk"/>
+      <property name="file" value="./e2e/src/app.e2e-spec.ts"/>
     </properties>
-    <testcase classname="emulator-5554.android.9.new_App" name="should_display_page_title" time="0.254"/>
-    <testcase classname="emulator-5554.android.9.new_App" name="should_display_page_title_tab_two" time="0.546"/>
-    <testcase classname="emulator-5554.android.9.new_App" name="should_display_page_title_tab_three" time="0.478"/>
+    <testcase classname="emulator-5554.android.8_1_0.app-debug_apk.new_App" name="should_display_page_title" time="3.48"/>
+    <testcase classname="emulator-5554.android.8_1_0.app-debug_apk.new_App" name="should_display_page_title_tab_two" time="1.028"/>
+    <testcase classname="emulator-5554.android.8_1_0.app-debug_apk.new_App" name="should_display_page_title_tab_three" time="0.788"/>
   </testsuite>
 </testsuites>

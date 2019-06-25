@@ -56,7 +56,7 @@ exports.config = {
     // ====================
     services: ['appium'],
     appium: {
-        command: process.cwd() + '\\node_modules\\.bin\\appium.cmd',
+        // command: process.cwd() + '\\node_modules\\.bin\\appium.cmd',
         // For options see
         // https://github.com/webdriverio/webdriverio/tree/master/packages/wdio-appium-service
         args: {

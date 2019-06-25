@@ -14,7 +14,6 @@
     "build:androidprod": "ionic cordova build android --prod",
     "build:androidrelease": "ionic cordova build android --prod --release",
     "test:android": "./node_modules/.bin/wdio ./e2e/wdio.android.app.conf.js",
-    "protractor": "protractor ./e2e/protractor.conf.js",
     "testServer": "sudo docker run --privileged -d -p 6080:6080 -p 4723:4723 -p 5554:5554 -p 5555:5555 -v $PWD/platforms/android/app/build/outputs/apk/debug/:/root/tmp -v $PWD/data:/root/android_emulator -e DEVICE\"Nexus 5\" -e APPIUM=true -e APPIUM_HOST=\"127.0.0.1\" -e APPIUM_PORT=4723 budtmo/docker-android-x86-8.1"
   },
   "private": true,

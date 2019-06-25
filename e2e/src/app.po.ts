@@ -7,7 +7,7 @@ export class AppPage {
 
     // Quando uma pagina é substituida, buscar por tag-name pode trazer uma versão não visível
     getPageTitle(): Element {
-        return $('ion-title');
+        return $$('ion-title').pop();
     }
     // Alternativa 1, buscar a lista de elementos e pegar o último( deve ser a instância mais recente)
     getPageTitleLast() {
